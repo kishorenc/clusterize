@@ -1,6 +1,6 @@
 {
     "name": "clusterize",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Helper for core cluster module.",
     "homepage": "https://github.com/kishorenc/clusterize",
     "author": "Kishore Nallan <kishore@kishorelive.com>",

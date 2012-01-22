@@ -32,7 +32,7 @@ You can then start the server normally
 
 * `numWorkers` : number of workers to fork, defaults to the number of available cores
 
-## Using with Express
+## Using with Express 2.x
 
 To use Clusterize with your Express application, simply export your `app` object and pass it to Clusterize
 
@@ -51,7 +51,7 @@ To use Clusterize with your Express application, simply export your `app` object
 
 	clusterize(app, 3000, {numWorkers: 2});
 
-You can then start your app this way
+Start your app this way
 
 	$ node server.js
 
@@ -60,9 +60,10 @@ You can then start your app this way
 This is pretty much a work in progress:
 
 	* Tests
-	* Starting, stopping, restarting the cluster from command line
+	* Starting, stopping, and restarting the cluster from command line
 	* Sending messages to peers
 	* Generate PID files for master and workers
+	* Send email with stack trace when worker crashes
 	
 ## License
 
