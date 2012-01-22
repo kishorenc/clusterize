@@ -1,0 +1,27 @@
+{
+    "name": "clusterize",
+    "version": "0.1.0",
+    "description": "Helper for core cluster module.",
+    "homepage": "https://github.com/kishorenc/clusterize",
+    "author": "Kishore Nallan <kishore@kishorelive.com>",
+    "contributors": [
+        "Kishore Nallan <kishore@kishorelive.com>"
+    ],
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/kishorenc/clusterize"
+    },
+    "bugs":
+    {
+        "mail": "kishore@kishorelive.com",
+        "url": "https://github.com/kishorenc/clusterize/issues"
+    },
+    "main": "index.js",
+    "engines": { "node": ">=0.6.0" },
+    "keywords": ["clusterize", "cluster", "multiple cores"],
+    "licenses" :
+    [
+        { "type" : "MIT", "url" : "https://raw.github.com/kishorenc/clusterize/master/LICENSE" }
+    ]
+}
