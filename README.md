@@ -55,6 +55,15 @@ Start your app this way
 
 	$ node server.js
 
+##Watching for files changes + CoffeeScript
+
+There are already plenty of mature libraries that do this, so I did not want to reinvent the wheel. If you want to watch for changes and automatically restart the server during development, you can use [nodemon](https://github.com/remy/nodemon) with Clusterize by starting it in development mode, like this:
+
+	$ npm install -g nodemon
+	$ NODE_ENV=development nodemon server.js
+
+When started in development mode this way, Clusterize will run your application is a single process, and **will not spawn any workers.**
+
 ## TODO
 
 This is pretty much a work in progress:
