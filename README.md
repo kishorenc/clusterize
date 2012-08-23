@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/kishorenc/clusterize.png)](http://travis-ci.org/kishorenc/clusterize)
 # Clusterize - helper for core cluster module
 
 Clusterize is a small helper module which wraps the [cluster module](http://nodejs.org/docs/v0.6.0/api/cluster.html) offered by Node 0.6.x.
